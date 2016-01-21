@@ -2,6 +2,7 @@
 This Rest API helps you to manage your Minecraft server's bans!
 
 #How does it work?
+You don't want to have a database on your server? BanAPI is the solution!
 By simply making a request to your website, this API can register, remove and read banned players.
 It creates a file for each player you insert and retrives infos from there.
 You will be provided of a secure ID at the first run of the API (or if the config.json file is missing).
