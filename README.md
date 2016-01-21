@@ -6,7 +6,7 @@ By simply making a request to your website, this API can register, remove and re
 It creates a file for each player you insert and retrives infos from there.
 You will be provided of a secure ID at the first run of the API (or if the config.json file is missing).
 
-**REMEMBER TO MAKE THE /data FOLDER NON-ACCESSIBLE**
+**REMEMBER TO MAKE THE /data FOLDER NON-ACCESSIBLE FROM WEB**
 
 #Create a ban
 If you want to create a ban, the "syntax" is simple: `http://yourdomain.com/insert/player/date/reason/yourID`.
