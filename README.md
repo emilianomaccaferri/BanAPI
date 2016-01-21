@@ -1,6 +1,4 @@
 # BanAPI
-<<<<<<< HEAD
-This Rest API can help you to manage bans	
 =======
 This Rest API helps you to manage your Minecraft server's bans!
 
@@ -19,4 +17,6 @@ If you want to remove a ban, simply access to: `http://yourdomain.com/remove/pla
 
 #Read all the bans
 To read all the bans, simply access to: `http://yourdomain.com/readall/yourID`.
->>>>>>> 544b710d4deb82e329430be54366bbcbe1152bde
+
+#Read a single ban
+To read a single ban, simply access to: `https://yourdomain.com/read/name/yourID`
