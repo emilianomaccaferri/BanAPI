@@ -1,5 +1,4 @@
 # BanAPI
-=======
 This Rest API helps you to manage your Minecraft server's bans!
 
 #How does it work?
