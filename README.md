@@ -1,7 +1,5 @@
 # BanAPI
-<<<<<<< HEAD
-This Rest API can help you to manage bans	
-=======
+
 This Rest API helps you to manage your Minecraft server's bans!
 
 #How does it work?
@@ -18,5 +16,4 @@ If you want to create a ban, the "syntax" is simple: `http://yourdomain.com/inse
 If you want to remove a ban, simply access to: `http://yourdomain.com/remove/player/yourID`.
 
 #Read all the bans
-To read all the bans, simply access to: `http://yourdomain.com/readall/yourID`.
->>>>>>> 544b710d4deb82e329430be54366bbcbe1152bde
+To read all the bans, simply access to: `http://yourdomain.com/readall/yourID`
