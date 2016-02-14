@@ -10,10 +10,13 @@ You will be provided of a secure ID at the first run of the API (or if the confi
 **REMEMBER TO MAKE THE /data FOLDER NON-ACCESSIBLE**
 
 #Create a ban
-If you want to create a ban, the "syntax" is simple: `http://yourdomain.com/insert/player/date/reason/yourID`.
+If you want to create a ban, simply access to: `http://yourdomain.com/insert/player/date/reason/yourID`.
 
 #Remove a ban
 If you want to remove a ban, simply access to: `http://yourdomain.com/remove/player/yourID`.
 
 #Read all the bans
 To read all the bans, simply access to: `http://yourdomain.com/readall/yourID`
+
+#Read a single ban
+To read a single ban, simply access to: `http://yourdomain.com/read/name/yourID`
