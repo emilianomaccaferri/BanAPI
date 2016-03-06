@@ -11,6 +11,7 @@ You will be provided of a secure ID at the first run of the API (or if the confi
 
 #Create a ban
 If you want to create a ban, simply access to: `http://yourdomain.com/insert/player/date/reason/yourID`.
+Date format: dd-mm-yyyy or whatever is your date format, but with "-" instead of "/"
 
 #Remove a ban
 If you want to remove a ban, simply access to: `http://yourdomain.com/remove/player/yourID`.
