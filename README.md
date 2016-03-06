@@ -21,3 +21,10 @@ To read all the bans, simply access to: `http://yourdomain.com/readall/yourID`
 
 #Read a single ban
 To read a single ban, simply access to: `http://yourdomain.com/read/name/yourID`
+
+#Known bugs
+- Problems with UTF-8 json-encoding.
+
+#To do
+- Tempban feature
+- I don't know, ideas will jump into my mind soon.
