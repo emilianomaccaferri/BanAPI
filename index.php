@@ -32,6 +32,7 @@ try
     if ( !file_exists( "data/config.json" ) )
     {
 
+        mkdir("./data");
         $key = md5( microtime() . rand() );
 
         $json[ ] = array(
