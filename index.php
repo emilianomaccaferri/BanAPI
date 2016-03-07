@@ -32,6 +32,7 @@ try
     if ( !file_exists( "data/config.json" ) )
     {
 
+        mkdir("./data");
         $key = md5( microtime() . rand() );
 
         $json[ ] = array(
@@ -62,8 +63,10 @@ try
             $date   = $args[ 3 ];
             $reason = $args[ 4 ];
             $ID     = $args[ 5 ];
+            $json   = json_decode(file_get_contents("https://api.mojang.com/users/profiles/minecraft/$player"), true);
+            $uuid   = $json["id"];
 
-            $actions->insert( $player, $reason, $date, $ID, $realID );
+            $actions->insert( $player, $reason, $date, $ID, $realID, $uuid );
 
             break;
 
