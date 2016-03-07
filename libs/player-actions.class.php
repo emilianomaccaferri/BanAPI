@@ -31,25 +31,19 @@ class PlayerActions
                                 );
                               }
 
-                              if(sizeof($jsonarray) == 0){
-
-                                $message[] = array(
-                                        "error" => "No players found."
-                                );
-                                die(json_encode($message)); //
+                              echo $this->pregJson($jsonarray);
 
                               }
 
-                        echo $this->pregJson($jsonarray);
-                    }
-                else
-                    {
-                        $message[] = array(
-                                "error" => "Wrong ID"
-                        );
-                        die(json_encode($message));
-                    }
-            }
+                              else
+                                  {
+                                      $message[] = array(
+                                              "error" => "Wrong ID"
+                                      );
+                                      die(json_encode($message));
+                                  }
+                          }
+
         public function insert($player, $reason, $date, $ID, $realID, $uuid)
             {
                 if($ID == $realID)
